@@ -1,0 +1,40 @@
+.footer-grid{
+    position: absolute;
+    top :210%;
+    color :white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  1fr;
+    
+}
+ul{
+    list-style: none;
+    line-height: 2em;
+    color: #66178B;
+    font-size: 16px;
+}
+.bozio{
+font-family: Agency FB;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 60px;
+/* identical to box height, or 167% */
+
+
+color: #66178B;
+}
+.five-brand-grid{
+
+    display :grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #B742EE;
+
+    opacity: 0.8;
+
+    
+}

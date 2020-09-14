@@ -1,0 +1,11 @@
+.team-wrapper1{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:1em;
+    width: 100%;
+}
+.team-wrapper1 img{
+    max-width: 80%;
+    height: auto;
+}

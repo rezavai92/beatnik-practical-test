@@ -1,38 +1,283 @@
-.App {
-  text-align: center;
+body{
+
+background: linear-gradient(185.46deg, #13041B 13.22%, #1E1721 52.71%, #220A2D 85.43%);
+overflow-x: hidden;
+}
+.about-us{
+    position : absolute;
+    left:10%;
+    top:30%;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cover{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: -5px;
+    
+    height: 90%;
+    clip-path: polygon(0% 0%, 100% 0%,100% 82%,18% 100%, 0% 82%);
+    background: rgba(102, 23, 139, 0.7);
+    mix-blend-mode: hard-light;
+    background-image: url('./resources/cover.png');
+    background-attachment: fixed;
+    background-size: contain;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.search-icon{
+    position :absolute;
+    top:4%;
+    right:18%;
+}
+.who-we-are{
+    position: absolute;
+    top :90%;
+    left:40%;
+}
+
+.ex{
+    position: absolute;
+    top :100%;
+    left:40%;
+}
+    
+.card{
+
+
+    position :absolute;
+    top:  130%;
+    left: 15%;
+}
+.client{
+
+    position: absolute;
+    top: 155%;
+    left: 40%;
+}
+.client-logo-flex{
+    position: absolute;
+    top :170%;
+    left :1%;
+    display :grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap :1em;
+    align-items: center;
+}
+
+.how-we-work{
+    position: absolute;
+    top: 195%;
+    left :39%;
+}
+
+.wrapper{
+    position: absolute;
+    top:210%;
+    left: 4%;
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap:2em;
+    overflow: scroll;
+    
+    
+
+    
+}
+.team-wrapper{
+    position: absolute;
+    top :750%;
+    left: 4%;
+    width: 100%;
+    
+}
+.recent-project-grid{
+
+    display :grid;
+    position : absolute;
+    top:1010%;
+    left: 3%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap :1em;
+}
+
+.what-we-provide-grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    position : absolute;
+    grid-gap:3em;
+    top:600%;
+    left: 7%;
+}
+.text-col-header{
+
+font-family: Barlow Condensed;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+text-align: left;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+
+.wrapper img{
+    max-width: 100%;
+    height :auto;
+}
+.text-col-p{
+
+font-family: Barlow Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 16px;
+width :80%;
+/* or 160% */
+
+text-align: left;
+letter-spacing: 0.02em;
+
+/* MID EM TEXT */
+
+color: #E5E5E5;
+}
+
+.what-we-provide{
+    position: absolute;
+    top:585%;
+    left :40%;
+}
+
+.meet-our-team {
+    position: absolute;
+    top:735%;
+    left:15%;
+}
+.recent-project{
+    position :absolute;
+    top:990%;
+    left :3%;
+}
+
+.recent-project-grid-bg{
+    background-color: white;
+    background: #66178B;
+    background-blend-mode: screen;
+    mix-blend-mode: hard-light;
+}
+
+.text-tick{
+    position: absolute;
+    top : 220px;
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    left: 50px;
+    color :white;
+}
+.text-tick-1{
+    position: absolute;
+    top : 220px;
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    left: 640px;
+    color :white;
+}
+
+.wanna-talk{
+position :absolute;
+top: 1090%;
+left:15%;
+font-family: Agency FB;
+font-style: normal;
+font-weight: bold;
+font-size: 56px;
+line-height: 65px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: white;
+}
+.contact-us{
+    position: absolute;
+    top: 1110%;
+    left: 40%;
+    width: 100px;
+    height :40px;
+    
+    background: #D91F4B;
+}
+.button-text{
+    position: absolute;
+    top:25%;
+    left: 18%;
+    color: white;
+}
+
+.talk-button{
+
+    background: #D91F4B;
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    right : 8%;
+    top:3%;
+}
+
+
+.footer{
+    position :absolute;
+    top:1130%;
+    left:100px;
+    width: 100%;
+}
+
+.what-we-work-container{
+    position: relative;
+    
+}
+.what-we-work-container:hover .what-we-work-container-overlay{
+opacity: 1;
+}
+.overlay-text {
+
+    
+font-family: Barlow Condensed;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 33px;
+display: flex;
+align-items: center;
+
+color: #D91F4B;
+}
+
+.what-we-work-container-overlay {
+    position: relative;
+    top: 55%;
+    
+    left: 0.73%;
+    
+    height: 42%;
+    width: 80%;
+    opacity: 0;
+    transition: .5s ease;
+    background: #66178B;
+mix-blend-mode: hard-light;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  

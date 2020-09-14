@@ -1,0 +1,31 @@
+.title{
+
+    position: absolute;
+    top : 95%;
+    left :40%;
+}
+
+.text-below{
+
+    position : absolute;
+    top:105%;
+    left :20%;    
+    height:82px;
+    width : 50%;
+
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    /* or 160% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    /* MID EM TEXT */
+    
+    color: #E5E5E5;
+    }

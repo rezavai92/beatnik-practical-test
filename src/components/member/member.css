@@ -1,0 +1,35 @@
+.container{
+    position: relative;
+    
+}
+.container:hover .overlay{
+opacity: 1;
+}
+.text {
+
+    
+font-family: Barlow Condensed;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 33px;
+display: flex;
+align-items: center;
+
+color: #D91F4B;
+}
+
+.overlay {
+    position: absolute;
+    top: 55%;
+    
+    left: 0.73%;
+    
+    height: 42%;
+    width: 80%;
+    opacity: 0;
+    transition: .5s ease;
+    background: #66178B;
+mix-blend-mode: hard-light;
+  }
+  
